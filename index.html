@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Shined Angel</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+  <h1>Shined Angel Rodrigues de Oliveira <br> 31816774</h1>
+  <h5>° Utilize nas funções Soma e Subtração</h5>
+    <div class="container">
+      <div class="calc">
+        <div class="said">         
+        </div>
+    <form name="calculator" class="botao">
+      <input type="textfield" id="calc2" name="ans" value="">
+          <input type="reset" id="AC" class="limpar" value="AC" onClick="calculator.ans.value+='AC'"><span></span></input>
+          <input type="button" class="limpar" value="+/_" onClick="calculator.ans.value+='+/-'"><span></span></input>
+          <input type="button" id="porc" class="limpar" value="%" onClick="calculator.ans.value+='%'"><span></span></input>
+          <input type="button" id="/" class="op1" value="&divide;" onClick="calculator.ans.value+='÷'"></input>
+    
+          <input type="button" id="7" class="num" value="7" onClick="calculator.ans.value+='7'"></input>
+          <input type="button" id="8" class="num" value="8" onClick="calculator.ans.value+='8'"></input>
+          <input type="button" id="9" class="num" value="9" onClick="calculator.ans.value+='9'"></input>
+          <input type="button" id="*" class="op2" value="&times;" onClick="calculator.ans.value+='x'"></input>
+    
+          <input type="button" id="4" class="num" value="4" onClick="calculator.ans.value+='4'"></input>
+          <input type="button" id="5" class="num" value="5" onClick="calculator.ans.value+='5'"></input>
+          <input type="button" id="6" class="num" value="6" onClick="calculator.ans.value+='6'"></input>
+          <input type="button" id="-" class="op3" value="-" onClick="calculator.ans.value+='-'"></input>
+    
+          <input type="button" id="1" class="num" value="1" onClick="calculator.ans.value+='1'"></input>
+          <input type="button" id="2" class="num" value="2" onClick="calculator.ans.value+='2'"></input>
+          <input type="button" id="3" class="num" value="3" onClick="calculator.ans.value+='3'"></input>
+          <input type="button" id="+" class="op4" value="&plus;" onClick="calculator.ans.value+='+'"></input>
+
+          <input type="button" class="zero" value="0" onClick="calculator.ans.value+='0'"></input><br>
+          <input type="button" id="virgula" class="virg" value="," onClick="calculator.ans.value+=','"></input>
+          
+          <input type="button" id="igual" class="igual" value="=" onClick="calculator.ans.value=eval(calculator.ans.value)">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
